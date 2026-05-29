@@ -21,7 +21,9 @@
       "Bash(curl -s \"https://api.github.com/repos/yigitozgenc/yigitozgenc.github.io/commits?per_page=2\")",
       "Bash(python3 -c \"import json,sys;[print\\(' -',c['commit']['message'].split\\(chr\\(10\\)\\)[0],'|',c['sha'][:7]\\) for c in json.load\\(sys.stdin\\)]\")",
       "Bash(curl -s -o /tmp/live.html -w \"HTTP %{http_code}\\\\n\" https://yigitozgenc.github.io/)",
-      "Bash(git fetch *)"
+      "Bash(git fetch *)",
+      "Bash(git commit -q -m ' *)",
+      "Bash(git push *)"
     ]
   }
 }
