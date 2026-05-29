@@ -1,0 +1,27 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm --version)",
+      "Bash(npx hexo *)",
+      "Bash(rm -rf hexo_tmp)",
+      "Bash(npx --yes hexo-cli init hexo_tmp)",
+      "Read(//opt/homebrew/opt/node@20/bin/**)",
+      "Read(//usr/local/Cellar/node@20/20.19.0_1/bin/**)",
+      "Bash(command -v fnm)",
+      "Read(//opt/homebrew/bin/**)",
+      "Bash([ -f \"public/$p\" ])",
+      "Bash(gh auth *)",
+      "Bash(curl -s -o /tmp/pages.json -w \"HTTP %{http_code}\\\\n\" https://api.github.com/repos/yigitozgenc/yigitozgenc.github.io/pages)",
+      "Bash(python3 -c \"import sys,json; d=json.load\\(sys.stdin\\); print\\('build_type:', d.get\\('build_type'\\)\\); print\\('status:', d.get\\('status'\\)\\); print\\('html_url:', d.get\\('html_url'\\)\\); print\\('cname/source:', d.get\\('source'\\)\\)\")",
+      "Bash(curl -s \"https://api.github.com/repos/yigitozgenc/yigitozgenc.github.io/actions/runs?per_page=3\" -o /tmp/runs.json -w \"HTTP %{http_code}\\\\n\")",
+      "Bash(python3 -c \"import json;d=json.load\\(open\\('/tmp/runs.json'\\)\\);[print\\(r['name'],'|',r['status'],'|',r['conclusion'],'|',r['head_branch']\\) for r in d.get\\('workflow_runs',[]\\)]\")",
+      "WebFetch(domain:www.linkedin.com)",
+      "Bash(curl -s \"https://api.github.com/repos/yigitozgenc/yigitozgenc.github.io/contents/.github/workflows\" -o /tmp/wf.json -w \"HTTP %{http_code}\\\\n\")",
+      "Bash(python3 -c \"import json;d=json.load\\(open\\('/tmp/wf.json'\\)\\);[print\\(' -',f['name']\\) for f in d] if isinstance\\(d,list\\) else print\\(' none / ',d.get\\('message'\\)\\)\")",
+      "Bash(curl -s \"https://api.github.com/repos/yigitozgenc/yigitozgenc.github.io/commits?per_page=2\")",
+      "Bash(python3 -c \"import json,sys;[print\\(' -',c['commit']['message'].split\\(chr\\(10\\)\\)[0],'|',c['sha'][:7]\\) for c in json.load\\(sys.stdin\\)]\")",
+      "Bash(curl -s -o /tmp/live.html -w \"HTTP %{http_code}\\\\n\" https://yigitozgenc.github.io/)",
+      "Bash(git fetch *)"
+    ]
+  }
+}

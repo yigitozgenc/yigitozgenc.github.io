@@ -1,0 +1,9 @@
+# Hexo
+node_modules/
+public/
+.deploy*/
+db.json
+*.log
+
+# Local CV source (contains personal contact details)
+cv.txt
