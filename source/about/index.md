@@ -5,10 +5,11 @@ date: 2026-05-29 00:00:00
 comments: false
 ---
 
-<p style="text-align: center;">
-  <img src="/img/avatar.png" alt="Mehmet Yiğit Özgenç" width="240"
-       style="border-radius: 12px;">
-</p>
+<figure style="text-align: center;">
+  <img src="/img/about.jpg" alt="Belgium, Brugge" width="600"
+       style="border-radius: 12px; max-width: 100%; height: auto;">
+  <figcaption style="margin-top: 8px; font-style: italic; color: #888;">Belgium, Brugge</figcaption>
+</figure>
 
 ## Who am I
 

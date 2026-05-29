@@ -31,7 +31,14 @@
       "Bash(curl -s -o /dev/null -w \"blog: HTTP %{http_code}\\\\n\" https://leimao.github.io/blog/)",
       "Bash(curl -s -o /dev/null -w \"archives: HTTP %{http_code}\\\\n\" https://leimao.github.io/archives/)",
       "Bash(curl -s \"https://api.github.com/repos/leimao/leimao.github.io/contents/\")",
-      "Bash(python3 -c ' *)"
+      "Bash(python3 -c ' *)",
+      "Bash(curl -s https://yigitozgenc.github.io/)",
+      "Bash(curl -s -o /dev/null -w \"/blog: HTTP %{http_code}\\\\n\" https://yigitozgenc.github.io/blog/)",
+      "Bash(curl -s https://yigitozgenc.github.io/blog/)",
+      "Bash(curl -s -o /dev/null -w \"/about: HTTP %{http_code}\\\\n\" https://yigitozgenc.github.io/about/)",
+      "Bash(curl -s -o /dev/null -w \"/publications: HTTP %{http_code}\\\\n\" https://yigitozgenc.github.io/publications/)",
+      "Bash(sips -g pixelWidth -g pixelHeight d96904e2-2f53-489d-9a9d-d09cc279939f.jpeg)",
+      "Bash(sips -g pixelWidth -g pixelHeight da4313fd-0a01-4d1b-ae1f-d8e2c9777ca5.jpg)"
     ]
   }
 }

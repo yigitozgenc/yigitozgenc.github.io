@@ -6,7 +6,7 @@ comments: false
 ---
 
 <p style="text-align: center;">
-  <img src="/img/avatar.png" alt="Mehmet Yiğit Özgenç" width="240"
+  <img src="/img/avatar.jpg" alt="Mehmet Yiğit Özgenç" width="240"
        style="border-radius: 12px;">
 </p>
 

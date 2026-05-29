@@ -2,8 +2,10 @@
 version: 5.1.0
 # Icarus theme variant, can be "default" or "cyberpunk"
 variant: default
-# Path or URL to the website's logo
-logo: /img/logo.svg
+# Path or URL to the website's logo.
+# Empty string on purpose so the navbar shows the site title text instead of the
+# default Icarus logo.
+logo: ''
 # Page metadata configurations
 head:
     # URL or path to the website's icon
@@ -193,8 +195,8 @@ widgets:
         # Author's current location
         location: Abu Dhabi, UAE
         # URL or path to the avatar image
-        # Replace source/img/avatar.png with your own photo to change this everywhere.
-        avatar: /img/avatar.png
+        # Replace source/img/avatar.jpg with your own photo to change this everywhere.
+        avatar: /img/avatar.jpg
         # Whether show the rounded avatar image
         avatar_rounded: true
         # URL or path for the follow button
