@@ -59,8 +59,9 @@ prismjs:
 # path: Root path for your blogs index page. (default = '')
 # per_page: Posts displayed per page. (0 = disable pagination)
 # order_by: Posts order. (Order by date descending by default)
+# Blog post list lives at /blog so that "/" can be a custom landing page
 index_generator:
-  path: ''
+  path: 'blog'
   per_page: 10
   order_by: -date
 

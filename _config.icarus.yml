@@ -106,7 +106,7 @@ navbar:
     # Navigation menu items
     menu:
         Home: /
-        Blog: /archives
+        Blog: /blog
         Projects: /projects
         Publications: /publications
         About: /about
@@ -193,11 +193,10 @@ widgets:
         # Author's current location
         location: Abu Dhabi, UAE
         # URL or path to the avatar image
+        # Replace source/img/avatar.png with your own photo to change this everywhere.
         avatar: /img/avatar.png
         # Whether show the rounded avatar image
         avatar_rounded: true
-        # Email address for the Gravatar
-        gravatar: mehmetyigitozgenc@gmail.com
         # URL or path for the follow button
         follow_link: https://github.com/yigitozgenc
         # Links to be shown on the bottom of the profile widget

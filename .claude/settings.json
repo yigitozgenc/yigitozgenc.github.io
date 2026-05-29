@@ -23,7 +23,15 @@
       "Bash(curl -s -o /tmp/live.html -w \"HTTP %{http_code}\\\\n\" https://yigitozgenc.github.io/)",
       "Bash(git fetch *)",
       "Bash(git commit -q -m ' *)",
-      "Bash(git push *)"
+      "Bash(git push *)",
+      "Bash(curl -s \"https://api.github.com/repos/yigitozgenc/yigitozgenc.github.io/actions/runs?per_page=1&branch=main\")",
+      "Bash(python3 -c \"import json;d=json.loads\\(open\\('/tmp/r3.json'\\).read\\(\\),strict=False\\)['workflow_runs'][0];print\\(d['name'],'|',d['status'],'|',d['conclusion'],'|',d['head_sha'][:7]\\)\")",
+      "Bash(curl -s https://leimao.github.io/)",
+      "Bash(grep -oE \"<\\(h1|h2|nav|title\\)[^>]*>[^<]{0,60}\")",
+      "Bash(curl -s -o /dev/null -w \"blog: HTTP %{http_code}\\\\n\" https://leimao.github.io/blog/)",
+      "Bash(curl -s -o /dev/null -w \"archives: HTTP %{http_code}\\\\n\" https://leimao.github.io/archives/)",
+      "Bash(curl -s \"https://api.github.com/repos/leimao/leimao.github.io/contents/\")",
+      "Bash(python3 -c ' *)"
     ]
   }
 }

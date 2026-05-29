@@ -5,6 +5,11 @@ date: 2026-05-29 00:00:00
 comments: false
 ---
 
+<p style="text-align: center;">
+  <img src="/img/avatar.png" alt="Mehmet Yiğit Özgenç" width="240"
+       style="border-radius: 12px;">
+</p>
+
 ## Who am I
 
 I'm **Mehmet Yiğit Özgenç**, a Machine Learning Engineer based in Abu Dhabi, UAE.
