@@ -6,7 +6,7 @@ comments: false
 ---
 
 <figure style="text-align: center;">
-  <img src="/img/about.jpg" alt="Belgium, Brugge" width="600"
+  <img src="/img/about.jpg" alt="Belgium, Brugge" width="360"
        style="border-radius: 12px; max-width: 100%; height: auto;">
   <figcaption style="margin-top: 8px; font-style: italic; color: #888;">Belgium, Brugge</figcaption>
 </figure>

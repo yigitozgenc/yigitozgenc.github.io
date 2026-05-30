@@ -38,7 +38,10 @@
       "Bash(curl -s -o /dev/null -w \"/about: HTTP %{http_code}\\\\n\" https://yigitozgenc.github.io/about/)",
       "Bash(curl -s -o /dev/null -w \"/publications: HTTP %{http_code}\\\\n\" https://yigitozgenc.github.io/publications/)",
       "Bash(sips -g pixelWidth -g pixelHeight d96904e2-2f53-489d-9a9d-d09cc279939f.jpeg)",
-      "Bash(sips -g pixelWidth -g pixelHeight da4313fd-0a01-4d1b-ae1f-d8e2c9777ca5.jpg)"
+      "Bash(sips -g pixelWidth -g pixelHeight da4313fd-0a01-4d1b-ae1f-d8e2c9777ca5.jpg)",
+      "Bash(curl -s -o /dev/null -w \"avatar.jpg: HTTP %{http_code}\\\\n\" https://yigitozgenc.github.io/img/avatar.jpg)",
+      "Bash(curl -s -o /dev/null -w \"about.jpg:  HTTP %{http_code}\\\\n\" https://yigitozgenc.github.io/img/about.jpg)",
+      "Bash(curl -s https://yigitozgenc.github.io/about/)"
     ]
   }
 }
