@@ -6,28 +6,28 @@ comments: false
 ---
 
 <figure style="text-align: center;">
-  <img src="/img/about.jpg" alt="Belgium, Brugge" width="360"
+  <img src="/img/about.jpg" alt="With friends after a basketball game in Abu Dhabi" width="560"
        style="border-radius: 12px; max-width: 100%; height: auto;">
-  <figcaption style="margin-top: 8px; font-style: italic; color: #888;">Belgium, Brugge</figcaption>
 </figure>
 
 ## Who am I
 
 I'm **Mehmet Yiğit Özgenç**, a Machine Learning Engineer based in Abu Dhabi, UAE.
-I build generative-AI systems — large language models and diffusion models — and
-take them all the way from research into large-scale production. I currently work
-as an ML Engineer at **AIQ**, an industrial-AI company in the G42 / ADNOC
-ecosystem.
+I currently work at **AIQ**, an industrial-AI company in the G42 / ADNOC
+ecosystem. I build and scale the inference systems behind large language and
+vision-language models — from serving architecture to monitoring — running as
+self-hosted, 24/7 services that scale to tens of thousands of cameras.
+Alongside serving, I work on post-training (SFT, preference optimisation, RL),
+covering the full path from fine-tuning a model to running it in production.
 
 Over the past several years I've shipped multimodal product-matching and
 visual-search systems, AI image and portrait generators with hundreds of
 thousands of monthly users, and in-house recommendation engines — working across
 the full stack: applied research (fine-tuning, model compression, architecture
-design) and the MLOps that keeps it all running in production, from Kubernetes
-and vector search to CI/CD and monitoring. My background is unusually broad: I
-started in mechanical engineering, moved through data science and product, and
-have spent the last few years focused on deep learning and generative AI. I'm
-also pursuing a PhD in Computer Science at Özyeğin University.
+design) and the infrastructure that keeps it running in production, from
+Kubernetes and vector search to CI/CD and monitoring. I'm a PhD student in
+Computer Science at Özyeğin University (coursework completed, currently on
+leave).
 
 Outside of work I care a lot about teaching. I design and lead machine-learning
 and generative-AI bootcamps and study groups with the **Kolektif.ai** and
@@ -40,7 +40,7 @@ stopping by.
 ## Education
 
 - **PhD, Computer Science** — Özyeğin University, Istanbul *(2023 – Present)*
-  Coursework completed. Topics: Machine Learning & Artificial Neural Networks,
+  Coursework completed; currently on leave. Topics: Machine Learning & Artificial Neural Networks,
   Advanced Deep Learning, Architectures for Deep Learning Acceleration,
   Multicore Programming, Advanced C++, Data Science, Advanced Topics in ML.
 - **MBA, Management Sciences & Quantitative Methods** — Marmara University, Istanbul *(2019 – 2023)*

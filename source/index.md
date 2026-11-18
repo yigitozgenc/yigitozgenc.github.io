@@ -6,42 +6,56 @@ comments: false
 ---
 
 <figure style="text-align: center;">
-  <img src="/img/about.jpg" alt="Belgium, Brugge" width="300"
+  <img src="/img/home.jpg" alt="Me and my roommate, Pera" width="480"
        style="border-radius: 12px; max-width: 100%; height: auto;">
-  <figcaption style="margin-top: 8px; font-style: italic; color: #888;">Belgium, Brugge</figcaption>
 </figure>
 
-## Who am I
+I'm **Mehmet Yiğit Özgenç**, a Machine Learning Engineer at **AIQ** (G42 /
+ADNOC ecosystem) in Abu Dhabi. I build and scale the inference systems behind
+large language and vision-language models — from serving architecture to
+monitoring — running as self-hosted, 24/7 services that scale to tens of
+thousands of cameras. Alongside serving, I work on post-training (SFT,
+preference optimisation, RL), covering the full path from fine-tuning a model
+to running it in production. This builds on 5+ years of shipping ML products at
+**Cimri**, **AppNation**, **Vivense**, and **eBay Turkey (GittiGidiyor)**. I'm a
+PhD student in Computer Science at **Özyeğin University** (coursework
+completed, currently on leave).
 
-I'm **Mehmet Yiğit Özgenç**, a Machine Learning Engineer based in Abu Dhabi,
-UAE. I build generative-AI systems — large language models and diffusion
-models — and take them all the way from research into large-scale production. I
-currently work as an ML Engineer at **AIQ**, an industrial-AI company in the
-G42 / ADNOC ecosystem.
+## What I work on
 
-Over the years I've shipped multimodal product-matching and visual-search
-systems, AI image and portrait generators with hundreds of thousands of monthly
-users, and in-house recommendation engines — working across the full stack, from
-applied research (fine-tuning, model compression, architecture design) to the
-MLOps that keeps it all running in production.
+- **Post-training for LLMs and VLMs** — supervised fine-tuning, reward
+  modelling, preference optimisation (DPO) and RL-based methods, with evaluation
+  and data pipelines treated as first-class parts of the recipe. Currently
+  automating the full training-and-evaluation loop end to end.
+- **Model inference at scale** — self-hosted serving, quantization and GPU
+  inference optimisation for LLMs, VLMs and computer-vision models, from
+  data-centre GPUs to edge.
+- **Multimodal systems** — vision-language models, retrieval and visual search.
+- **ML system design** — GPU microservices and the infrastructure around them:
+  orchestration, monitoring and the path from prototype to a 24/7 production
+  service.
 
-## From Mechanical Engineering to ML
+## What I'm doing now
 
-My path here wasn't a straight line. I started out as a mechanical engineer and
-even founded an engineering-consultancy company during university. From there I
-moved through data science and product roles, and over the last several years I
-went all in on deep learning and generative AI. That mix — hands-on engineering,
-business context, and modern ML research — is the lens I bring to my work. I'm
-also pursuing a PhD in Computer Science at Özyeğin University.
+Right now I'm working on both post-training and inference system design.
+
+## Teaching and community
+
+- **Kolektif.ai** — I designed and run the 12-week Machine Learning Bootcamp and
+  led the Generative AI Bootcamp, with courses on diffusion models, fine-tuning
+  LLMs, AI agents, and ML deployment.
+- **Inzva** — Mentor for the Google Developers ML Bootcamp and the Deep Learning
+  Bootcamp.
+- **TMMOB Chamber of Mechanical Engineers** — Board member and founder of its
+  AI Committee.
 
 ## About this site
 
-This is my log book. I use it to write up the things I learn and build:
-fine-tuning techniques, diffusion models, model compression, and the practical
-side of running ML systems in production. You can browse everything under
-[**Blog**](/blog), see what I've built on [**Projects**](/projects), and find my
-research on [**Publications**](/publications). There's a longer bio on the
-[**About**](/about) page.
+This is my lab notebook. Each post is one experiment, one result, and the
+numbers behind it — with code and checkpoints where I can share them. The
+topics are post-training, LLM/VLM inference, and the system design that connects
+the two. Posts are under [**Blog**](/blog), research under
+[**Publications**](/publications), and the full CV on [**About**](/about).
 
 ## Contact
 

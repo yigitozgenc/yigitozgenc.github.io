@@ -5,8 +5,8 @@
 # Site
 title: Mehmet Yiğit Özgenç
 subtitle: Machine Learning Engineer
-description: Personal blog and portfolio of Mehmet Yiğit Özgenç — Machine Learning Engineer working on generative AI, LLMs, and large-scale ML systems.
-keywords: machine learning, deep learning, generative AI, LLM, diffusion models, MLOps
+description: Personal blog and portfolio of Mehmet Yiğit Özgenç — Machine Learning Engineer working on post-training and inference for LLMs and vision-language models.
+keywords: machine learning, post-training, fine-tuning, LLM, VLM, inference, model serving, RLHF, DPO
 author: Mehmet Yiğit Özgenç
 language: en
 timezone: Europe/Istanbul
@@ -103,3 +103,7 @@ theme: icarus
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: ''
+
+# Markdown: treat single newlines as spaces, not <br>
+marked:
+  breaks: false
